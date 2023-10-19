@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/teste8fundo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+section {
+    text-align: center;
+    border: 2px solid #1ED3E4;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left: 30px;
+    margin: 10px 0;
+    color: #1ED3E4;
+    background-color: #1ED3E450;
+    display: flex;
+    justify-content:space-between;
+  
+    
+    font-family: Open, Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: 0.2s;
+}
+section:hover {
+    background-color:#1ED3E490 ;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+a {
+
+    color: white;
+}
+footer img {
+    max-width: 100px;
+    max-height: auto;
+    padding: 20px;
+}
+#container-pai {
+   
+
+    min-width: 385px;
+    border-radius: 15px;
+    max-width: 30rem;
+    max-height: none;
+    align-items: center;
+    margin: 0 auto;
+}
+#header-l {
+    max-width:200px;
+   
+
+
+
+}
+#header-r {
+    align-items: center;  
+    align-content: center;
+    text-align: center;
+
+}
+#menu-informacoes {
+    display: flex;
+    flex-direction: column;
+}
+#informacoes {
+    list-style-type: none;
+    padding: 10px;
+    background-color:#FAC26150 ;
+    border-radius: 20px;
+    width: auto;
+}
+#informacoes li {
+    color:white;
+    line-height: 1.3rem;
+    white-space: nowrap;
+    padding: 3px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    text-align: center  
+    
+}
+#insignias img {
+    max-width: 40px;
+}
+#informacoes li img {
+    max-height:16px;
+    padding-right: 5px;
+}
+#header-r h1 {
+    margin: 1.5rem;
+}
+header img {
+   max-width: 100%;
+}
+.botao-expandir {
+    height: 20px;
+    color: #1ED3E4;
+    align-self: center;
+    margin-right:10px;  
+}
+
+/* ----------------------MEDIA QUERIES--------------------*/
+
+@media only screen and (min-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+    }
+    #informacoes  {
+    
+        margin-left: 30px;
+        
+    }
+    
+}
+@media only screen and (min-width: 700px) {
+    .conteudo {
+        flex-direction: row;
+    }
+    #secao4  {
+        display: flex;
+        flex-direction: row;
+        font-size: large;
+        border-bottom: 1px solid #1ED3E4;
+    }
+}
+
+/*-----------------ESTILIZAÇÃO ABAS ABERTAS -------------------*/
+
+.aba-conteudo {
+    
+    display: none;
+    background-color: #1ED3E490 ;
+    color: white;
+}
+.aba-conteudo img {
+    float: right;
+    margin: 15px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.conteudo img {
+    max-width: 10rem;
+    align-self: center;
+}
+#secao2 ul li{
+    font-size: large;
+    border-bottom: 1px solid #1ED3E4;
+}
+#secao3 ul li{
+    font-size: large;
+    border-bottom: 1px solid #1ED3E4;
+}
+#secao4  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    border-bottom: 1px solid #1ED3E4;
+}
+#secao4 img {
+    max-width: 20rem;
+    padding: 1rem;
+    border: 1px solid #1ED3E4;
+    border-radius: 10px;
+}
+section.aba-conteudo:hover {
+    background-color:#1ED3E490 ;
+    color: white;
+    cursor:auto;
+}
+section.aba-conteudo img:hover {
+    cursor: pointer;
+}
