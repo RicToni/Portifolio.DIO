@@ -1,7 +1,12 @@
 * {
     box-sizing: border-box;
 }
-
+.transition-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
 body {
   background-image: url(../images/teste8fundo.jpg);
   background-size: cover;

@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (conteudos[index].style.display === 'block') {
           conteudos[index].style.display = 'none';
          
+         
         } else {
           conteudos[index].style.display = 'block';
         }
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     botoesFechar.forEach(function (botao, index) {
       botao.addEventListener('click', function () {
         conteudos[index].style.display = 'none';
+       
       });
     });
   });
