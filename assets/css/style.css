@@ -132,13 +132,14 @@ header img {
 
 @media only screen and (min-width: 500px) {
     header {
+        max-width: 900px;
         display: flex;
         flex-direction: row;
         margin: 0 auto;
         align-items: center;
     }
     #informacoes  {
-    
+        
         margin-left: 30px;  
     }
     section.aba {
@@ -146,6 +147,12 @@ header img {
     }
     #container-pai {
         max-width: 900px;
+    }
+    #menu-informacoes {
+        max-width: 700px;
+    }
+    #informacoes {
+        max-width: 700px;
 
     }
     
