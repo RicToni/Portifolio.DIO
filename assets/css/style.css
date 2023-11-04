@@ -139,9 +139,16 @@ header img {
     }
     #informacoes  {
     
-        margin-left: 30px;
-        
+        margin-left: 30px;  
     }
+    section.aba {
+        max-width: 900px;
+    }
+    #container-pai {
+        max-width: 900px;
+
+    }
+    
     
 }
 @media only screen and (min-width: 700px) {
@@ -154,6 +161,7 @@ header img {
         font-size: large;
         border-bottom: 1px solid #1ED3E4;
     }
+    
 }
 
 /*-----------------ESTILIZAÇÃO ABAS ABERTAS -------------------*/
